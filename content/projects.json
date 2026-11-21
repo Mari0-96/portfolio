@@ -1,0 +1,367 @@
+{
+  "projects": [
+    {
+      "title": "Achelois BioPharma",
+      "slug": "achelois-biopharma",
+      "category": "Product",
+      "year": "2023",
+      "card_image": "assets/4a4be.png",
+      "card_size": "small",
+      "case_study": {
+        "eyebrow": "Achelois BioPharma",
+        "headline": "Some interfaces can’t afford to be confusing",
+        "lead": "I designed a custom SOP app for a T-cell cancer therapy lab. It’s built around how technicians actually work, not a generic template.",
+        "hero_image": "assets/4a4be.png",
+        "categories": "Product Design, Healthcare / Biotech",
+        "tldr": {
+          "body": "Clear step sequencing and a strong visual hierarchy make the next required action obvious at a glance. The result was 86% fewer procedural errors and 78% faster onboarding."
+        },
+        "impact": {
+          "title": "The Impact",
+          "stats": [
+            { "value": "86%", "label": "fewer procedural errors" },
+            { "value": "78%", "label": "faster onboarding" }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Burq",
+      "slug": "burq",
+      "category": "Product",
+      "year": "2024-25",
+      "card_image": "assets/21a76.png",
+      "card_size": "big",
+      "case_study": {
+        "eyebrow": "Burq.io",
+        "headline": "Making financial data easier to understand",
+        "lead": "I redesigned key parts of a financial dashboard to improve transaction visibility, simplify navigation, and help users understand their finances faster during everyday workflows.",
+        "hero_image": "assets/projects/burq/hero.png",
+        "live_url": "",
+        "client": "Burq (Folio3)",
+        "role": "Product Designer",
+        "categories": "Product Design, iPaaS Dashboard",
+        "tldr": {
+          "title": "Hiding complexity is the whole job",
+          "body": "Burq is Folio3's low-code integration platform. It connects eCommerce stores like Amazon and Magento to ERPs like Dynamics 365, so orders, inventory and billing stay in sync. The complexity underneath never goes away; it has to be hidden well.\n\nAs Lead Product Designer, I redesigned the whole product. I reshaped the UI and simplified the UX and motion, so the complexity stopped leaking into the user's experience. I also led the design of the ERP integration features, the highest-stakes part of the product. A confusing integration flow doesn't just frustrate people; it breaks their downstream workflows.",
+          "images": [
+            "assets/projects/burq/tldr-1.png",
+            "assets/projects/burq/tldr-2.png"
+          ]
+        },
+        "impact": {
+          "title": "The Impact",
+          "intro": "The redesign helped the team move faster and handle more, without adding headcount.",
+          "stats": [
+            { "value": "72%", "label": "cut in order-to-cash cycle time" },
+            { "value": "55+", "label": "dashboard views redesigned" },
+            { "value": "85%", "label": "Growth in order volume supported" }
+          ]
+        },
+        "sections": [
+          {
+            "label": "Problem",
+            "title": "Powerful under the hood, confusing on the surface",
+            "intro": "Burq could move data between almost any store and any ERP, but the old dashboard didn't tell users what was going on. It led with a chart of errors, gave a third of the screen to a list of integrations, and left key panels as empty placeholders.\n\nHow can we make a complex integration platform feel calm enough that teams trust it with their order-to-cash flow?",
+            "items": [
+              {
+                "image": "assets/projects/burq/problem-before.png",
+                "caption": "Before: the original dashboard"
+              }
+            ]
+          },
+          {
+            "label": "Research",
+            "title": "Looking past the integrations",
+            "intro": "I reviewed the existing product with the engineering team and spoke with project developer and finance users to check the integrations and the connectors. I wanted to understand where people got stuck and what they actually checked each day.",
+            "items": [
+              {
+                "heading": "Key insights",
+                "body": "**Setup was the biggest drop-off.** Connecting a store to an ERP meant mapping fields across two systems at once, and many users needed support to finish.\n\n**Failures surfaced too late.** A failed order sync often showed up days later, as a mismatch in the ERP or a missing invoice.\n\n**Users think in orders, not API calls.** Ops and finance teams track orders, stock and revenue, but the old dashboard led with technical logs."
+              }
+            ]
+          },
+          {
+            "label": "Ideation",
+            "title": "Rethinking the hierarchy first",
+            "intro": "Before touching visuals, I mapped what each user needed to see first. Status and actions moved to the top; logs and settings moved a level down.",
+            "items": [
+              {
+                "heading": "Testing interaction flows early",
+                "body": "I prototyped the integration setup and error-recovery flows in low fidelity and walked through them with engineers early. That surfaced edge cases, like partial syncs and expired credentials, before the high-fidelity work began.",
+                "image": "assets/projects/burq/ideation-flows.png",
+                "caption": "Early flows for connecting apps and recovering from failed syncs."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "Rebuilding the dashboard from the ground up",
+            "intro": "Make every screen lead with what matters, and let motion explain rather than decorate. Across 55+ views, the dashboard was rebuilt around one rule: the most important action is never buried.",
+            "items": [
+              {
+                "image": "assets/projects/burq/design-after.png",
+                "caption": "After: the redesigned home dashboard"
+              },
+              {
+                "heading": "User sees what needs attention first",
+                "body": "The dashboard opens on orders synced, revenue processed and integrations that need action. The user switches between day, week, month and quarter to spot trends, and status colours flag problems before they reach the ERP.",
+                "image": "assets/projects/burq/design-attention.png",
+                "caption": "Home dashboard focused on workspaces, transaction status and connection health."
+              },
+              {
+                "heading": "User connects their apps in a few guided steps",
+                "body": "The user picks a store and an ERP from the integrations marketplace and authenticates both in one flow. Burq suggests field mappings, so the user reviews them instead of building from scratch.",
+                "image": "assets/projects/burq/design-connect.png",
+                "caption": "ERP integration flow, allowing setup without technical help."
+              },
+              {
+                "heading": "User fixes failed syncs in place",
+                "body": "A failed sync shows which order failed, why, and what to do next, in plain language. The user corrects it and retries without leaving the screen. Subtle motion confirms each step, so the user always knows the system responded.",
+                "image": "assets/projects/burq/design-recovery.png",
+                "caption": "Error recovery with purposeful micro-interactions."
+              }
+            ]
+          },
+          {
+            "label": "Lessons",
+            "title": "Designing for calm, clarity and confidence in complex workflows",
+            "intro": "",
+            "items": [
+              {
+                "heading": "Key takeaways",
+                "body": "**Simplify, don't strip.** I didn't remove motion; I gave it a job. Purposeful micro-interactions made the product feel faster and more trustworthy than a static UI would.\n\n**Design for the person, not the system.** I started out designing around how integrations worked. The real gains came from designing around how ops and finance teams work: in orders, stock and cash."
+              }
+            ]
+          }
+        ],
+        "quote": {
+          "text": "Consistently translated complex requirements into clean, intuitive, and visually engaging interfaces.",
+          "author": "Hussain Imtiaz Ali",
+          "role": "Senior Front-End Engineer, Folio3 Software"
+        }
+      }
+    },
+    {
+      "title": "Invest in Sharjah",
+      "slug": "invest-in-sharjah",
+      "category": "Brand",
+      "year": "2019-20",
+      "card_image": "assets/ebd42.png",
+      "card_size": "small"
+    },
+    {
+      "title": "Propertico",
+      "slug": "propertico",
+      "category": "Product",
+      "year": "2025-26",
+      "card_image": "assets/cbb88.png",
+      "card_size": "big",
+      "case_study": {
+        "eyebrow": "Propertico",
+        "headline": "One brand, from billboard to back office",
+        "lead": "I designed Propertico's brand, its off-plan property website and the dashboard its team uses to run maintenance. Maintenance tasks now get resolved 75% faster.",
+        "hero_image": "assets/projects/propertico/01.jpg",
+        "live_url": "",
+        "client": "Propertico (KV Group)",
+        "role": "Senior UI/UX Designer",
+        "categories": "Brand Identity, Website, Property Management Dashboard",
+        "tldr": {
+          "title": "Two very different users, each feeling it was built for them",
+          "body": "Propertico is KV Group's Dubai property company. It helps people buy off-plan homes as first homes or investments, then manages those homes once landlords and tenants move in. Buyers need confidence and clear numbers; the operations team needs speed and a clear schedule. I designed both sides.\n\nFirst the brand: the logo, colours, stationery, signage and billboards. Then the website and 16+ campaigns that bring buyers in. Then the property management dashboard the operations team uses to schedule check-ins, cleaning and repairs. I mapped the full journey for both sides before a single high-fidelity screen was built, and that groundwork made everything after it faster and more consistent.",
+          "images": [
+            "assets/projects/propertico/02.jpg",
+            "assets/projects/propertico/03.jpg"
+          ]
+        },
+        "impact": {
+          "title": "The Impact",
+          "intro": "One consistent brand outside, and a calmer operation inside.",
+          "stats": [
+            { "value": "40+", "label": "reusable UI components shipped" },
+            { "value": "16+", "label": "marketing campaigns & social creatives" },
+            { "value": "85%", "label": "faster maintenance fixes" }
+          ]
+        },
+        "sections": [
+          {
+            "label": "Problem",
+            "title": "Selling a dream, then keeping it running",
+            "intro": "Propertico had two jobs that pull in opposite directions. Selling off-plan homes takes a brand that feels premium and trustworthy, because buyers pay for something that isn't built yet.\n\nRunning homes after handover takes a fast, plain tool, because a leak at 10am can't wait for a meeting.",
+            "items": [
+              {
+                "image": "assets/projects/propertico/04.jpg",
+                "caption": "Before: the original dashboard"
+              }
+            ]
+          },
+          {
+            "label": "Research",
+            "title": "Listening to both sides",
+            "intro": "I spoke with sales and the operations team, went through enquiries and maintenance logs, and sat with the maintenance coordinators to see how they planned a day. I wanted to know what made a buyer trust an off-plan home, and where maintenance jobs got stuck.",
+            "items": [
+              {
+                "heading": "Key insights",
+                "body": "**Buyers trust numbers before pictures.** Investors wanted the price per sq ft, the expected return and the handover date before they cared about the render.\n\n**Coordinators think in days and units, not tickets.** They plan the week by time slot and apartment, so a calendar made more sense to them than a list.\n\n**Not every job is equal.** An urgent AC repair and a routine inspection looked the same in a chat thread. Priority had to be visible at a glance."
+              }
+            ]
+          },
+          {
+            "label": "Ideation",
+            "title": "Starting with the brand and the journey",
+            "intro": "I mapped the full journey for both sides first: from a buyer seeing an ad to enquiring, and from a request coming in to a job marked done. That showed where each audience needed confidence and where it needed speed.",
+            "items": [
+              {
+                "heading": "A mark built on home and connection",
+                "body": "The logo is a roof inside an open arch: a home, held by the people around it. Deep teal and warm cream carry it across business cards, signage, mugs and billboards, with a yellow highlight for key words. The line \"Discover your perfect address. Creating connections that last forever.\" set the tone for everything after.",
+                "image": "assets/projects/propertico/05.jpg",
+                "caption": "Logo mark and brand colours."
+              },
+              {
+                "heading": "Building the system before the screens",
+                "body": "I built a Figma design system with Auto Layout, Variables, Variants and Design Tokens. It grew to 40+ reusable components, so new screens were assembled, not drawn from scratch. I used v0.dev and Lovable to try layout options quickly, then took the strongest into Figma.",
+                "image": "assets/projects/propertico/06.jpg",
+                "caption": "Dashboard components built on the design system."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "Premium where buyers look, plain where the team works",
+            "intro": "The outside sells a dream; the inside keeps it running. The website and campaigns lead with the numbers investors trust. The dashboard leads with today's tasks, their priority and who is on them.",
+            "items": [
+              {
+                "image": "assets/projects/propertico/07.jpg",
+                "caption": "After: the redesigned home dashboard"
+              },
+              {
+                "heading": "Buyer sees the numbers that matter first",
+                "body": "The website opens on \"Buy the Dream Before It's Built\" and goes straight to Dubai's market highlights. Buyers search on a map by location, developer or project. Each property shows its price, price per sq ft, expected return and handover date side by side.",
+                "image": "assets/projects/propertico/08.jpg",
+                "caption": "Website hero, map search and property details."
+              },
+              {
+                "heading": "Campaigns that teach while they sell",
+                "body": "I designed 16+ campaigns and social creatives in the same brand. The Buy.Propertico posts answer real buyer questions, like why two identical homes cost different amounts, and point to guides on Dubai's top returns.",
+                "image": "assets/projects/propertico/09.jpg",
+                "caption": "Buy.Propertico social posts."
+              },
+              {
+                "heading": "Coordinator sees the whole day at a glance",
+                "body": "The dashboard opens on five counts: active tasks, pending requests, check-ins and check-outs, urgent queries and team on duty. Below, a weekly calendar shows every job by time and unit, and Today's Requests lists jobs by priority with their assignee.",
+                "image": "assets/projects/propertico/10.jpg",
+                "caption": "Maintenance coordinator screen."
+              },
+              {
+                "heading": "Coordinator creates and assigns a task in one panel",
+                "body": "From the Maintenance Requests board, the coordinator opens Add New Task in a side panel. They pick the property, task type, staff member and priority, add notes and create it, without losing sight of the board.",
+                "image": "assets/projects/propertico/11.jpg",
+                "caption": "Maintenance Requests board with the Add New Task panel."
+              },
+              {
+                "heading": "Every task has one source of truth",
+                "body": "Task Details shows status, assignee, priority, schedule, full address and notes in one place, with the assignee's details beside it. Update, Reschedule and Reassign sit at the bottom, so a change takes one click, not a phone call. This is where the 75% faster resolution came from.",
+                "image": "assets/projects/propertico/12.jpg",
+                "caption": "Task details with assignee information."
+              }
+            ]
+          },
+          {
+            "label": "Lessons",
+            "title": "Designing for both sides of the door",
+            "intro": "",
+            "items": [
+              {
+                "heading": "Key takeaways",
+                "body": "**Map the whole journey first.** Mapping both sides before high fidelity felt slow at the start. It made every later screen faster to design and more consistent to build.\n\n**Different users need different tones.** Buyers needed polish and confidence; coordinators needed plain, fast screens. One design system of 40+ components let both feel built for them.\n\n**Status is a feature.** The biggest gain for the operations team wasn't a new screen; it was always knowing where each task stood and who owned it."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "ADGPG",
+      "slug": "adgpg",
+      "category": "Product",
+      "year": "2020-21",
+      "card_image": "assets/83125.png",
+      "card_size": "big",
+      "case_study": {
+        "eyebrow": "ADGPG",
+        "headline": "Thoughtful design belongs in public infrastructure too",
+        "lead": "People don’t use government platforms because they like the brand. They use them because they have to. For ADGPG, Abu Dhabi’s government procurement platform, I designed core inner-page modules within the TAMM design system, giving them the same care as any consumer product.",
+        "hero_image": "assets/83125.png",
+        "categories": "UI/UX Design, Government",
+        "tldr": {
+          "body": "I designed 54+ modules that feel native to TAMM. Procurement now works less like paperwork and more like a guided process, with clear steps and clear status. The result was 86% faster processing and a 75% improvement in task completion."
+        },
+        "impact": {
+          "title": "The Impact",
+          "stats": [
+            { "value": "86%", "label": "faster processing" },
+            { "value": "75%", "label": "improvement in task completion" },
+            { "value": "54+", "label": "modules designed within TAMM" }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Go4trades",
+      "slug": "go4trades",
+      "category": "Brand",
+      "year": "2025-26",
+      "card_image": "assets/80cad.png",
+      "card_size": "big"
+    },
+    {
+      "title": "WEF - App",
+      "slug": "wef-app",
+      "category": "Product",
+      "year": "2026-Q1",
+      "card_image": "assets/c29c3.png",
+      "card_size": "small"
+    },
+    {
+      "title": "Buna",
+      "slug": "buna",
+      "category": "Website",
+      "year": "2020-Q2",
+      "card_image": "assets/c96d2.png",
+      "card_size": "small",
+      "case_study": {
+        "eyebrow": "Buna",
+        "headline": "Making trust visible in every pixel",
+        "lead": "Buna moves money across borders for banks and financial institutions. Its whole offer depends on trust. I designed the website so that every layout, tone and hierarchy choice signals security and credibility before a visitor reads a word.",
+        "hero_image": "assets/c96d2.png",
+        "categories": "UI/UX Design, Cross-Border Payments",
+        "tldr": {
+          "body": "Across 24+ pages, I balanced scale and reliability with warmth, and explained cross-border payments in a way anyone could follow. The result was a 72% increase in qualified institutional leads."
+        },
+        "impact": {
+          "title": "The Impact",
+          "stats": [
+            { "value": "72%", "label": "increase in qualified institutional leads" },
+            { "value": "24+", "label": "website pages designed" }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Expense App",
+      "slug": "expense-app",
+      "category": "Product",
+      "year": "2023-Q3",
+      "card_image": "assets/9ee11.png",
+      "card_size": "small"
+    },
+    {
+      "title": "Capital Health",
+      "slug": "capital-health",
+      "category": "Website",
+      "year": "2020",
+      "card_image": "assets/e83cf.png",
+      "card_size": "small"
+    }
+  ]
+}
