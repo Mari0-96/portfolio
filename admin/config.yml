@@ -1,0 +1,122 @@
+# Sveltia / Decap-compatible CMS config.
+# >>> Change `repo` to YOUR-GITHUB-USERNAME/YOUR-REPO-NAME <<<
+backend:
+  name: github
+  repo: Mari0-96/portfolio
+  branch: main
+
+# Uploaded images are committed here and served from /assets/uploads/...
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+site_url: https://YOUR-SITE.vercel.app
+locale: en
+
+collections:
+  - name: content
+    label: Portfolio
+    files:
+      - name: projects
+        label: Projects & case studies
+        file: content/projects.json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            label_singular: Project
+            summary: "{{fields.title}} — {{fields.category}}, {{fields.year}}"
+            hint: "Order = order on the homepage. Cards fill the 3 columns left to right (1, 2, 3, 1, 2, 3…). Drag to reorder."
+            fields:
+              # ---------- Homepage card ----------
+              - { label: Title, name: title, widget: string }
+              - { label: "URL slug", name: slug, widget: string, hint: "Lowercase, no spaces. e.g. burq → /project.html?slug=burq" }
+              - label: Category
+                name: category
+                widget: select
+                options: [Product, Brand, Website, Mobile App, Other]
+              - { label: "Year / period", name: year, widget: string, hint: "e.g. 2024-25 or 2026-Q1" }
+              - { label: "Card image", name: card_image, widget: image }
+              - label: "Card size"
+                name: card_size
+                widget: select
+                options:
+                  - { label: "Small (360 × 360)", value: small }
+                  - { label: "Big (360 × 410)", value: big }
+                default: small
+              - { label: "Published", name: published, widget: boolean, default: true, required: false }
+
+              # ---------- Case study page (leave empty = card is not clickable) ----------
+              - label: "Case study page"
+                name: case_study
+                widget: object
+                collapsed: true
+                required: false
+                hint: "Fill in the headline to turn the card into a link to a full case-study page."
+                fields:
+                  - { label: "Eyebrow (small text above title)", name: eyebrow, widget: string, required: false, hint: "e.g. Burq.io" }
+                  - { label: Headline, name: headline, widget: string }
+                  - { label: "Intro / lead paragraph", name: lead, widget: text, required: false }
+                  - { label: "Hero image", name: hero_image, widget: image, required: false }
+                  - { label: "Live preview URL", name: live_url, widget: string, required: false, hint: "Shows a 'Live Preview' button. Leave empty to hide." }
+                  - { label: Client, name: client, widget: string, required: false }
+                  - { label: "My role", name: role, widget: string, required: false }
+                  - { label: Categories, name: categories, widget: string, required: false, hint: "e.g. Product Design, iPaaS Dashboard" }
+
+                  - label: "TL;DR"
+                    name: tldr
+                    widget: object
+                    required: false
+                    fields:
+                      - { label: Title, name: title, widget: string, required: false }
+                      - { label: Text, name: body, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list] }
+                      - { label: "Two images (side by side)", name: images, widget: image, multiple: true, required: false }
+
+                  - label: "The Impact"
+                    name: impact
+                    widget: object
+                    required: false
+                    fields:
+                      - { label: Title, name: title, widget: string, default: "The Impact", required: false }
+                      - { label: Intro, name: intro, widget: text, required: false }
+                      - label: "Stats (3 looks best)"
+                        name: stats
+                        widget: list
+                        label_singular: Stat
+                        required: false
+                        summary: "{{fields.value}} — {{fields.label}}"
+                        fields:
+                          - { label: "Big number", name: value, widget: string, hint: "e.g. 72% or 55+" }
+                          - { label: Label, name: label, widget: string }
+
+                  - label: "Sections (Problem, Research, Ideation, Designs, Lessons…)"
+                    name: sections
+                    widget: list
+                    label_singular: Section
+                    required: false
+                    summary: "{{fields.label}} — {{fields.title}}"
+                    hint: "Each section appears in the floating menu at the bottom of the page."
+                    fields:
+                      - { label: "Label (menu name)", name: label, widget: string, hint: "e.g. Problem" }
+                      - { label: Title, name: title, widget: string }
+                      - { label: "Intro text", name: intro, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list] }
+                      - label: "Content blocks"
+                        name: items
+                        widget: list
+                        label_singular: Block
+                        required: false
+                        summary: "{{fields.heading}}{{fields.caption}}"
+                        hint: "Each block can have a heading, text, and an image with a caption — use any combination."
+                        fields:
+                          - { label: Heading, name: heading, widget: string, required: false }
+                          - { label: Text, name: body, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list] }
+                          - { label: Image, name: image, widget: image, required: false }
+                          - { label: Caption, name: caption, widget: string, required: false }
+
+                  - label: "Testimonial / quote"
+                    name: quote
+                    widget: object
+                    required: false
+                    fields:
+                      - { label: Quote, name: text, widget: text, required: false }
+                      - { label: Name, name: author, widget: string, required: false }
+                      - { label: "Role / company", name: role, widget: string, required: false }
