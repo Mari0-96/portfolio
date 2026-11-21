@@ -1,0 +1,9 @@
+# Normalise line endings so Windows and GitHub/Vercel agree
+* text=auto eol=lf
+
+# Binary files — never diff or convert
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary

@@ -1,0 +1,10 @@
+# local preview helpers (not needed in production)
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+.vercel
