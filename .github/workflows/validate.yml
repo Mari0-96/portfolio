@@ -1,0 +1,16 @@
+name: Validate content
+
+# Runs on every push / pull request (including commits made by the CMS).
+# It does not block Vercel — it just flags a broken projects.json or a missing image.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate content/projects.json
+        run: node .github/scripts/validate.mjs
