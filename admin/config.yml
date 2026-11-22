@@ -9,7 +9,7 @@ backend:
 media_folder: assets/uploads
 public_folder: /assets/uploads
 
-site_url: https://YOUR-SITE.vercel.app
+site_url: https://mariajalal-designer.vercel.app
 locale: en
 
 collections:
