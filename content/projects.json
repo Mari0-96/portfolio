@@ -229,7 +229,29 @@
         "hero_image": "assets/projects/invest-in-sharjah/cover.jpg",
         "live_url": "",
         "client": "Invest in Sharjah (Sharjah FDI Office)",
-        "categories": "Print Design, Editorial, Brand"
+        "categories": "Print Design, Editorial, Brand",
+        "sections": [
+          {
+            "label": "Gallery",
+            "items": [
+              {
+                "image": "assets/projects/invest-in-sharjah/policies-spread.jpg"
+              },
+              {
+                "image": "assets/projects/invest-in-sharjah/sharjah-today.jpg"
+              },
+              {
+                "image": "assets/projects/invest-in-sharjah/fdi-office.jpg"
+              },
+              {
+                "image": "assets/projects/invest-in-sharjah/advanced-manufacturing.jpg"
+              },
+              {
+                "image": "assets/projects/invest-in-sharjah/culture-tourism.jpg"
+              }
+            ]
+          }
+        ]
       }
     },
     {
