@@ -11,18 +11,82 @@
         "eyebrow": "Achelois BioPharma",
         "headline": "Some interfaces can’t afford to be confusing",
         "lead": "I designed a custom SOP app for a T-cell cancer therapy lab. It’s built around how technicians actually work, not a generic template.",
-        "hero_image": "assets/4a4be.png",
+        "hero_image": "assets/projects/achelois/experiments-grid.jpg",
+        "live_url": "",
+        "client": "Achelois BioPharma",
         "categories": "Product Design, Healthcare / Biotech",
         "tldr": {
-          "body": "Clear step sequencing and a strong visual hierarchy make the next required action obvious at a glance. The result was 86% fewer procedural errors and 78% faster onboarding."
+          "title": "The next required action, obvious at a glance",
+          "body": "Clear step sequencing and a strong visual hierarchy make the next required action obvious at a glance. The result was 86% fewer procedural errors and 78% faster onboarding.\n\nThe app, ACTA SOP, covers the full life of a lab procedure on a tablet: building a standard operating procedure, running it as an experiment, recording data and quality checks, and sending the finished report for signature."
         },
         "impact": {
           "title": "The Impact",
           "stats": [
-            { "value": "86%", "label": "fewer procedural errors" },
-            { "value": "78%", "label": "faster onboarding" }
+            {
+              "value": "86%",
+              "label": "fewer procedural errors"
+            },
+            {
+              "value": "78%",
+              "label": "faster onboarding"
+            },
+            {
+              "value": "7",
+              "label": "guided stages, from experiment details to signature"
+            }
           ]
-        }
+        },
+        "sections": [
+          {
+            "label": "Ideation",
+            "title": "Starting with the structure of an SOP",
+            "intro": "I used low-fidelity wireframes to settle how an SOP is built before moving to visual design.",
+            "items": [
+              {
+                "heading": "A contents rail and step blocks",
+                "body": "A contents rail on the left lists every stage of the SOP: define parameters, materials, procedure overview, quality control and the report builder. Each step is a block with its own details and definition, and form controls are dragged in from a side panel.",
+                "image": "assets/projects/achelois/wireframes.jpg",
+                "caption": "Wireframes for creating a new SOP."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "Built for the lab bench",
+            "intro": "ACTA SOP is designed for tablets. Each screen puts status first and the next action within reach.\n\nExperiments appear as cards with code, title, owner and date. A colour-coded status (draft, pending or completed) repeats as a bar along the card edge, so where things stand reads before any text does.",
+            "items": [
+              {
+                "heading": "A dashboard that counts what needs attention",
+                "body": "The dashboard opens with four counts: experiments approved, in review, awaiting approval and needing rework. Filters narrow it to the last 7, 15 or 30 days, and a table below lists each experiment with its owner, role, status and progress.",
+                "image": "assets/projects/achelois/dashboard.jpg",
+                "caption": "Dashboard with status counts and an experiments table."
+              },
+              {
+                "heading": "A sortable SOP library",
+                "body": "Custom SOPs live in a table of code, title, owner, status and category. A filter and sorting panel, pagination and a persistent Create New SOP button keep the library easy to scan and easy to add to.",
+                "image": "assets/projects/achelois/sop-library.jpg",
+                "caption": "Custom SOP list with the filters and sorting panel open."
+              },
+              {
+                "heading": "Signing off with a clear trail",
+                "body": "Signature Progress shows reviewers and approvers in sequence. Each reviewer’s signed ID, date, time and comment sit beside a progress bar (2 of 4 reviewed), so anyone can see who has signed and who is still to come.",
+                "image": "assets/projects/achelois/signature-progress.jpg",
+                "caption": "Signature progress for reviewers and approvers."
+              }
+            ]
+          },
+          {
+            "label": "System",
+            "title": "One set of components",
+            "intro": "Filters and sorting, a calendar date picker, a rich-text toolbar, experiment cards and a navigation rail with an icon for each stage share one visual language.",
+            "items": [
+              {
+                "image": "assets/projects/achelois/components.jpg",
+                "caption": "Filters, date picker, text toolbar, experiment cards and navigation icons."
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -53,9 +117,18 @@
           "title": "The Impact",
           "intro": "The redesign helped the team move faster and handle more, without adding headcount.",
           "stats": [
-            { "value": "72%", "label": "cut in order-to-cash cycle time" },
-            { "value": "55+", "label": "dashboard views redesigned" },
-            { "value": "85%", "label": "Growth in order volume supported" }
+            {
+              "value": "72%",
+              "label": "cut in order-to-cash cycle time"
+            },
+            {
+              "value": "55+",
+              "label": "dashboard views redesigned"
+            },
+            {
+              "value": "85%",
+              "label": "Growth in order volume supported"
+            }
           ]
         },
         "sections": [
@@ -143,522 +216,20 @@
       }
     },
     {
-      "title": "Achelois BioPharma (draft copy)",
-      "slug": "achelois-biopharma-draft",
-      "category": "Product",
-      "year": "2023",
-      "card_image": "assets/4a4be.png",
-      "card_size": "small",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "Achelois BioPharma",
-        "headline": "Some interfaces can’t afford to be confusing",
-        "lead": "I designed a custom SOP app for a T-cell cancer therapy lab. It’s built around how technicians actually work, not a generic template.",
-        "hero_image": "assets/projects/achelois/experiments-grid.jpg",
-        "live_url": "",
-        "client": "Achelois BioPharma",
-        "categories": "Product Design, Healthcare / Biotech",
-        "tldr": {
-          "title": "The next required action, obvious at a glance",
-          "body": "Clear step sequencing and a strong visual hierarchy make the next required action obvious at a glance. The result was 86% fewer procedural errors and 78% faster onboarding.\n\nThe app, ACTA SOP, covers the full life of a lab procedure on a tablet: building a standard operating procedure, running it as an experiment, recording data and quality checks, and sending the finished report for signature."
-        },
-        "impact": {
-          "title": "The Impact",
-          "stats": [
-            { "value": "86%", "label": "fewer procedural errors" },
-            { "value": "78%", "label": "faster onboarding" },
-            { "value": "7", "label": "guided stages, from experiment details to signature" }
-          ]
-        },
-        "sections": [
-          {
-            "label": "Ideation",
-            "title": "Starting with the structure of an SOP",
-            "intro": "I used low-fidelity wireframes to settle how an SOP is built before moving to visual design.",
-            "items": [
-              {
-                "heading": "A contents rail and step blocks",
-                "body": "A contents rail on the left lists every stage of the SOP: define parameters, materials, procedure overview, quality control and the report builder. Each step is a block with its own details and definition, and form controls are dragged in from a side panel.",
-                "image": "assets/projects/achelois/wireframes.jpg",
-                "caption": "Wireframes for creating a new SOP."
-              }
-            ]
-          },
-          {
-            "label": "Designs",
-            "title": "Built for the lab bench",
-            "intro": "ACTA SOP is designed for tablets. Each screen puts status first and the next action within reach.\n\nExperiments appear as cards with code, title, owner and date. A colour-coded status (draft, pending or completed) repeats as a bar along the card edge, so where things stand reads before any text does.",
-            "items": [
-              {
-                "heading": "A dashboard that counts what needs attention",
-                "body": "The dashboard opens with four counts: experiments approved, in review, awaiting approval and needing rework. Filters narrow it to the last 7, 15 or 30 days, and a table below lists each experiment with its owner, role, status and progress.",
-                "image": "assets/projects/achelois/dashboard.jpg",
-                "caption": "Dashboard with status counts and an experiments table."
-              },
-              {
-                "heading": "A sortable SOP library",
-                "body": "Custom SOPs live in a table of code, title, owner, status and category. A filter and sorting panel, pagination and a persistent Create New SOP button keep the library easy to scan and easy to add to.",
-                "image": "assets/projects/achelois/sop-library.jpg",
-                "caption": "Custom SOP list with the filters and sorting panel open."
-              },
-              {
-                "heading": "Signing off with a clear trail",
-                "body": "Signature Progress shows reviewers and approvers in sequence. Each reviewer’s signed ID, date, time and comment sit beside a progress bar (2 of 4 reviewed), so anyone can see who has signed and who is still to come.",
-                "image": "assets/projects/achelois/signature-progress.jpg",
-                "caption": "Signature progress for reviewers and approvers."
-              }
-            ]
-          },
-          {
-            "label": "System",
-            "title": "One set of components",
-            "intro": "Filters and sorting, a calendar date picker, a rich-text toolbar, experiment cards and a navigation rail with an icon for each stage share one visual language.",
-            "items": [
-              {
-                "image": "assets/projects/achelois/components.jpg",
-                "caption": "Filters, date picker, text toolbar, experiment cards and navigation icons."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "title": "Invest in Sharjah",
       "slug": "invest-in-sharjah",
       "category": "Brand",
       "year": "2019-20",
       "card_image": "assets/ebd42.png",
-      "card_size": "small"
-    },
-    {
-      "title": "Invest in Sharjah (draft copy)",
-      "slug": "invest-in-sharjah-draft",
-      "category": "Brand",
-      "year": "2019-20",
-      "card_image": "assets/ebd42.png",
       "card_size": "small",
-      "unlisted": true,
       "case_study": {
-        "eyebrow": "Invest in Sharjah \u00b7 Expo 2020 Dubai",
+        "eyebrow": "Invest in Sharjah · Expo 2020 Dubai",
         "headline": "A handbook that makes the case for Sharjah at a glance",
         "lead": "I designed the Investor Handbook for Invest in Sharjah, the emirate’s investment promotion agency, for Expo 2020 Dubai: a print publication that turns economic data, sector profiles and the agency’s services into clear, scannable spreads.",
         "hero_image": "assets/projects/invest-in-sharjah/cover.jpg",
         "live_url": "",
         "client": "Invest in Sharjah (Sharjah FDI Office)",
-        "categories": "Print Design, Editorial, Brand",
-        "tldr": {
-          "title": "Data made easy to scan",
-          "body": "Created for Expo 2020 Dubai, the handbook introduces investors to Sharjah and the wider UAE: the policy environment, the emirate today, the Sharjah FDI Office and its services, and the sectors open to investment. I designed the layouts so figures and key messages can be picked out at a glance, while the longer text stays readable.\n\nA navy and yellow palette, echoing the Invest in Sharjah logo, runs throughout, with accent colours such as orange used to set sector chapters apart."
-        },
-        "sections": [
-          {
-            "label": "Layout",
-            "title": "One system across every spread",
-            "intro": "Pages share a consistent set of building blocks: a dark navy base, yellow panels for key messages, full-bleed photography, outlined icons, a page-number tab in the bottom corner and a fine rule along the foot of the page. Headlines pair a bold word with a light one, such as Sharjah Today or Culture & Tourism.",
-            "items": [
-              {
-                "heading": "Policies and key rankings (pages 6–7)",
-                "body": "A text-led spread opens the UAE story. Four icons summarise the policy changes (100% foreign ownership, a new bankruptcy law, higher IPO limits and flexible residence options), and a yellow panel lists the country’s global and regional rankings.",
-                "image": "assets/projects/invest-in-sharjah/policies-spread.jpg",
-                "caption": "Pages 6–7: policies and rankings."
-              },
-              {
-                "heading": "Sharjah today, in numbers (pages 10–11)",
-                "body": "Key figures sit in outlined yellow frames over a night-time city photograph: population, ranking among the emirates, coastline, GDP and seaports. A map of the UAE with Sharjah highlighted in yellow anchors the facing page.",
-                "image": "assets/projects/invest-in-sharjah/sharjah-today.jpg",
-                "caption": "Pages 10–11: Sharjah today."
-              },
-              {
-                "heading": "Meeting the agency (pages 16–17)",
-                "body": "The Sharjah FDI Office introduction uses a navy panel cut into a yellow shape. Opposite, a short list of services (market knowledge, access to opportunities, bespoke advice and aftercare) is set with an icon for each, and a yellow panel closes the page.",
-                "image": "assets/projects/invest-in-sharjah/fdi-office.jpg",
-                "caption": "Pages 16–17: Sharjah FDI Office and what it offers investors."
-              }
-            ]
-          },
-          {
-            "label": "Sectors",
-            "title": "Sector chapters, each with its own colour",
-            "intro": "Investment opportunities are presented sector by sector. Each chapter opens with a large photograph, an icon in a yellow or orange shape, a bold strapline and a panel of key figures.",
-            "items": [
-              {
-                "heading": "Advanced manufacturing (pages 24–25)",
-                "body": "An orange accent sets this chapter apart. A figures panel sits over the photograph: 16.3% of GDP based on industry manufacturing, 150,000 employees in the emirate’s industrial city, 62% of industrial hubs dedicated to freight forwarding and 33 industrial zones.",
-                "image": "assets/projects/invest-in-sharjah/advanced-manufacturing.jpg",
-                "caption": "Pages 24–25: advanced manufacturing."
-              },
-              {
-                "heading": "Culture & tourism (pages 26–27)",
-                "body": "Yellow framing and a teal figures panel present the tourism story: 75% international tourists, 1.3M hotel visitors (2019), 70% of guests staying at 4–5-star hotels and 13.6M passengers at Sharjah International Airport (2019).",
-                "image": "assets/projects/invest-in-sharjah/culture-tourism.jpg",
-                "caption": "Pages 26–27: culture and tourism."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "ADGPG (draft copy)",
-      "slug": "adgpg-draft",
-      "category": "Product",
-      "year": "2020-21",
-      "card_image": "assets/83125.png",
-      "card_size": "big",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "ADGPG",
-        "headline": "Thoughtful design belongs in public infrastructure too",
-        "lead": "People don’t use government platforms because they like the brand. They use them because they have to. For ADGPG, Abu Dhabi’s government procurement platform, I designed core inner-page modules within the TAMM design system, giving them the same care as any consumer product.",
-        "hero_image": "assets/projects/adgpg/homepage.jpg",
-        "live_url": "",
-        "client": "ADGPG (Abu Dhabi Government Procurement Gate)",
-        "categories": "UI/UX Design, Government",
-        "tldr": {
-          "title": "Procurement as a guided process, not paperwork",
-          "body": "I designed 54+ modules that feel native to TAMM. Procurement now works less like paperwork and more like a guided process, with clear steps and clear status. The result was 86% faster processing and a 75% improvement in task completion.\n\nThe portal serves two audiences, suppliers and government employees. The homepage welcomes both and routes each to the right content through two clear entry points, followed by cards for government tenders and supplier guidance."
-        },
-        "impact": {
-          "title": "The Impact",
-          "stats": [
-            { "value": "86%", "label": "faster processing" },
-            { "value": "75%", "label": "improvement in task completion" },
-            { "value": "54+", "label": "modules designed within TAMM" }
-          ]
-        },
-        "sections": [
-          {
-            "label": "Structure",
-            "title": "Mapping how the pages fit together",
-            "intro": "I mapped the platform as a sitemap: a top-level page branching into content areas, listing pages, detail pages and forms, colour-coded by type so the whole structure can be read in one view.",
-            "items": [
-              {
-                "image": "assets/projects/adgpg/sitemap.jpg",
-                "caption": "Sitemap of the platform’s page types and how they connect."
-              }
-            ]
-          },
-          {
-            "label": "Designs",
-            "title": "Clear steps, clear status",
-            "intro": "The modules are built on a shared set of cards, tabs, filters and search so that every part of the portal behaves the same way, and a supplier or government employee always knows where to go next.",
-            "items": [
-              {
-                "heading": "Search that suggests as you type",
-                "body": "The resource library opens with a search bar, popular shortcuts (review contracts, register as a supplier, learn about the new roles) and filters by audience: end user, legal, finance and procurement employee. As the user types, suggestions such as \"Award a contract to entities\" appear. Each card offers a Read Article link and, where there is one, a downloadable resource.",
-                "image": "assets/projects/adgpg/search-resources.jpg",
-                "caption": "Resource library with search suggestions."
-              },
-              {
-                "heading": "Do’s and don’ts and tenders in one place",
-                "body": "Tabs switch between the Do’s & Don’ts for suppliers and tender content, with search, a filter and a card grid below. The highlighted card shows both actions together: Read Article and Downloadable Resource.",
-                "image": "assets/projects/adgpg/tabs-resources.jpg",
-                "caption": "Tabbed guidance with search and filter."
-              },
-              {
-                "heading": "About ADGPG at a glance",
-                "body": "A summary band presents key figures (initiatives launched, entities onboarded, number of tenders and number of suppliers) beside a short introduction to ADGPG. Below it, a News & Announcements carousel keeps updates close.",
-                "image": "assets/projects/adgpg/about-news.jpg",
-                "caption": "About ADGPG with key figures and news."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Buna (draft copy)",
-      "slug": "buna-draft",
-      "category": "Website",
-      "year": "2020-Q2",
-      "card_image": "assets/c96d2.png",
-      "card_size": "small",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "Buna",
-        "headline": "Making trust visible in every pixel",
-        "lead": "Buna moves money across borders for banks and financial institutions. Its whole offer depends on trust. I designed the website so that every layout, tone and hierarchy choice signals security and credibility before a visitor reads a word.",
-        "hero_image": "assets/projects/buna/homepage.jpg",
-        "live_url": "",
-        "client": "Buna",
-        "categories": "UI/UX Design, Cross-Border Payments",
-        "tldr": {
-          "body": "Across 24+ pages, I balanced scale and reliability with warmth, and explained cross-border payments in a way anyone could follow. The result was a 72% increase in qualified institutional leads.\n\nThe site covers who Buna is, its capabilities, its network, news and events, resources, a developer portal and careers, all under one green, gold and white identity."
-        },
-        "impact": {
-          "title": "The Impact",
-          "stats": [
-            { "value": "72%", "label": "increase in qualified institutional leads" },
-            { "value": "24+", "label": "website pages designed" }
-          ]
-        },
-        "sections": [
-          {
-            "label": "Homepage",
-            "title": "A hero that explains Buna in five steps",
-            "intro": "The first screen has to build trust fast. The hero rotates through five messages (Introduction, Cost-Efficient, Secure, Global Standard and Announcement), each with its own illustration and colour, tracked by a numbered progress line along the bottom.",
-            "items": [
-              {
-                "image": "assets/projects/buna/onboarding.jpg",
-                "caption": "Hero slide introducing smooth and efficient onboarding."
-              }
-            ]
-          },
-          {
-            "label": "Pages",
-            "title": "A system for the inner pages",
-            "intro": "Inner pages follow a few repeatable patterns so a large site stays easy to scan: a green gradient header with the main navigation, a breadcrumb, a bold title, short intro text and a supporting visual, followed by full-width bands for the detail.",
-            "items": [
-              {
-                "heading": "Explaining the network at a glance",
-                "body": "The Strategic Objectives & Business Approach page uses a diagram to show Buna at the centre of banks in different countries, so the cross-border idea is clear before the text is read. Compliance Program and a Business Impacts and Tangible Value section with icons follow the same pattern.",
-                "image": "assets/projects/buna/inner-pages.jpg",
-                "caption": "Compliance Program, homepage and Strategic Objectives & Business Approach."
-              },
-              {
-                "heading": "A Careers page for banks",
-                "body": "The Careers section includes a page called How We Hire Banks. Long-form text sits beside a supporting photograph, and a green How We Work band leads into the next section.",
-                "image": "assets/projects/buna/careers.jpg",
-                "caption": "How We Hire Banks, with placeholder text."
-              }
-            ]
-          },
-          {
-            "label": "Brand",
-            "title": "Values in one glance",
-            "intro": "The Our Values section presents Integrity, Reliability, Accountability, Commitment and Excellence on a solid green band, each with a white line icon, a gold title and a one-sentence description.",
-            "items": [
-              {
-                "image": "assets/projects/buna/values.jpg",
-                "caption": "Our Values."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Expense App (draft copy)",
-      "slug": "expense-app-draft",
-      "category": "Product",
-      "year": "2023-Q3",
-      "card_image": "assets/9ee11.png",
-      "card_size": "small",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "Expense App",
-        "headline": "Making expense claims quick to file and easy to track",
-        "lead": "I designed a mobile expense app for Folio3 where employees submit reimbursement requests, scan receipts and follow each claim through to payment, with a separate flow for the finance team that manages the setup.",
-        "hero_image": "assets/projects/expense-app/hero-home.webp",
-        "live_url": "",
-        "client": "Folio3",
-        "categories": "Product Design, Mobile App, Expense Management",
-        "tldr": {
-          "title": "I manage people, not expenses",
-          "body": "The app’s promise is in its sign-in line: I manage people, not expenses. Employees sign in with Google, see what is due on the home screen, file a request in a few steps and track it to payment. Finance admins manage employees, approvers, locations, designations, roles and expense types.\n\nI mapped the flows for both roles and wireframed the employee view, then moved into the final interface."
-        },
-        "sections": [
-          {
-            "label": "Structure",
-            "title": "Two roles, two flows",
-            "intro": "I mapped user flows for the Employee and the Admin (Finance) roles. Both start with a Google sign-in. A new user is sent on to complete a short profile with employee ID, contact, location, designation and bank account number.",
-            "items": [
-              {
-                "image": "assets/projects/expense-app/user-flows.webp",
-                "caption": "User flows for the employee and the finance admin."
-              },
-              {
-                "heading": "Wireframing the employee view",
-                "body": "Low-fidelity wireframes covered the login and dashboard screens, the profile screens and a multi-screen New Request flow, including the calendar and the receipt upload steps.",
-                "image": "assets/projects/expense-app/wireframes.webp",
-                "caption": "Employee view wireframes."
-              }
-            ]
-          },
-          {
-            "label": "Designs",
-            "title": "The deadline, the requests and the next action",
-            "intro": "The home screen leads with a deadline banner (for example, 12 days remaining to submit allowable expenses), followed by the employee’s recent and pending requests. A bottom bar holds Home, a red New Request button and My Profile. The banner comes in blue and red variants.",
-            "items": [
-              {
-                "heading": "One style from sign-in to confirmation",
-                "body": "From the sign-in screen to the \"request submitted\" confirmation, the screens share one blue and white style, with a single red action reserved for starting a new request.",
-                "image": "assets/projects/expense-app/ui-overview.webp",
-                "caption": "Sign-in, home, reimbursement form, filters and confirmation."
-              },
-              {
-                "heading": "Scan receipts, then confirm the details",
-                "body": "Employees photograph receipts, review each scanned item (date incurred and amount in PKR) with an Add more option, then complete a Reimbursement Form with expense type, division and a description before submitting. The form shows the uploaded receipts as thumbnails.",
-                "image": "assets/projects/expense-app/receipt-flow.webp",
-                "caption": "Scanning receipts and completing the reimbursement form."
-              },
-              {
-                "heading": "Tracking and filtering requests",
-                "body": "My Request lists each claim with its amount and a status tag: Pending, Amount Disbursed or Posted to payroll. A filter sheet narrows the list by expense type, status and date, including a custom date range calendar.",
-                "image": "assets/projects/expense-app/requests-filters.webp",
-                "caption": "Request list, custom date range and filters."
-              },
-              {
-                "heading": "Profile and notifications",
-                "body": "Employees can view and edit their profile (employee ID, email, role, bank account, designation, contact and location), and a notifications list reminds them of upcoming deadlines.",
-                "image": "assets/projects/expense-app/profile-notifications.webp",
-                "caption": "Profile, edit profile and notifications."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "Go4trades (draft copy)",
-      "slug": "go4trades-draft",
-      "category": "Brand",
-      "year": "2025-26",
-      "card_image": "assets/80cad.png",
-      "card_size": "big",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "Go4Trades",
-        "headline": "A brand built around growth and momentum",
-        "lead": "I redesigned the Go4Trades brand and carried it across its website, print, social media and promotions: a new logo, a navy and mint palette and one consistent voice for a proprietary trading firm.",
-        "hero_image": "assets/projects/go4trades/website-hero.jpg",
-        "live_url": "",
-        "client": "Go4Trades",
-        "categories": "Brand Identity, Website, Marketing Design",
-        "tldr": {
-          "title": "One identity, from logo to campaigns",
-          "body": "The identity centres on a new logo that fuses the number 4 with an upward-moving arrow, set in a dark navy and mint palette with soft gradient glows. I applied it to the website, business cards, brochures, merchandise, social posts and promotional campaigns, including Arabic versions.\n\nThe line Where dreams meet reality runs through the brand."
-        },
-        "sections": [
-          {
-            "label": "Logo",
-            "title": "A 4 that points up",
-            "intro": "The previous logo set a red 4 with an arrow beside the name. The new mark is a single mint ribbon that forms both a 4 and an upward-moving arrow, symbolising growth, momentum and success in the financial markets. It represents the journey of traders striving for higher performance, and the brand’s commitment to opportunity, progress and excellence in proprietary trading.",
-            "items": [
-              {
-                "image": "assets/projects/go4trades/logo.jpg",
-                "caption": "Before and after: the Go4Trades logo."
-              }
-            ]
-          },
-          {
-            "label": "Brand",
-            "title": "The mark, applied everywhere",
-            "intro": "The mark and the navy and mint palette carry onto merchandise and stationery: a shirt, cap, tote bag, coffee cup, badges, a billboard and business cards that carry the line Where dreams meet reality.",
-            "items": [
-              {
-                "image": "assets/projects/go4trades/brand-applications.jpg",
-                "caption": "Brand applications: apparel, billboard, cup, cards and badges."
-              },
-              {
-                "heading": "Print and offers",
-                "body": "Printed pieces keep the same look: business cards with a QR code, a $50 voucher with a promo code, and a tri-fold brochure whose cover asks Don’t take the risk! Inside, a Why We’re the Real Deal panel sets out the benefits, and a page introduces the KHDA-certified academy.",
-                "image": "assets/projects/go4trades/print-materials.jpg",
-                "caption": "Business card, voucher and tri-fold brochure."
-              }
-            ]
-          },
-          {
-            "label": "Website",
-            "title": "A dark, glowing interface for traders",
-            "intro": "The website carries the identity into a dark navy interface with glowing gradients and 3D illustrations. The hero asks A Place Where Dreams Meet Reality. Inner pages explain the firm and its scaling plan, and a set of trading calculators lets visitors work through earnings, profit and loss, and risk.",
-            "items": [
-              {
-                "image": "assets/projects/go4trades/website-pages.jpg",
-                "caption": "Trading calculators, About and Scaling Plan pages."
-              }
-            ]
-          },
-          {
-            "label": "Social",
-            "title": "Campaigns for every channel",
-            "intro": "Social and community content reuses the mark and palette, with an astronaut motif for the community campaigns.",
-            "items": [
-              {
-                "heading": "Social posts",
-                "body": "Instagram posts announce the new website, share a message about preparation over emotion in trading, and highlight the TradingView-powered charts.",
-                "image": "assets/projects/go4trades/social-posts.jpg",
-                "caption": "Instagram posts."
-              },
-              {
-                "heading": "Discord community",
-                "body": "A Rise to the Challenge campaign for Discord uses an astronaut character in a dark green scene, with matching avatars, a banner and a $30 giveaway.",
-                "image": "assets/projects/go4trades/discord-campaign.jpg",
-                "caption": "Discord campaign graphics and avatars."
-              },
-              {
-                "heading": "Offers and promotions",
-                "body": "Graphics for challenge discounts and a flash sale come in English and Arabic versions. They share one layout system of mint headlines, a promo code and coin and planet imagery.",
-                "image": "assets/projects/go4trades/promotions.jpg",
-                "caption": "Promotional graphics in English and Arabic."
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "title": "WEF - App (draft copy)",
-      "slug": "wef-app-draft",
-      "category": "Product",
-      "year": "2026-Q1",
-      "card_image": "assets/c29c3.png",
-      "card_size": "small",
-      "unlisted": true,
-      "case_study": {
-        "eyebrow": "WEF App",
-        "headline": "An AI companion that plans your day at the Forum",
-        "lead": "I designed a mobile app that helps delegates plan their day at the World Economic Forum. An AI planner builds an itinerary around their interests and available time, accounts for walking between venues, and flags conflicts before they happen.",
-        "hero_image": "assets/projects/wef-app/hero-home.jpg",
-        "live_url": "",
-        "categories": "Product Design, Mobile App, AI",
-        "tldr": {
-          "title": "From an empty schedule to a plan in five steps",
-          "body": "The app turns planning into a short flow: ask the AI planner, declare interests, read the plan, adjust a slot if there is a conflict, and confirm. Live updates for room changes and cancellations keep the plan current.\n\nThe interface stays light and calm, with soft blue gradients, dark session cards for emphasis and a floating tab bar."
-        },
-        "sections": [
-          {
-            "label": "Flow",
-            "title": "Five steps from question to itinerary",
-            "intro": "The core journey has five steps: Ask AI, Declare interests, Read the plan, Adjust slot, and Confirm and go.",
-            "items": [
-              {
-                "image": "assets/projects/wef-app/flow-steps.jpg",
-                "caption": "Steps 1 to 3: ask the AI planner, declare interests and read the plan."
-              },
-              {
-                "image": "assets/projects/wef-app/confirm-steps.jpg",
-                "caption": "Steps 4 and 5: adjust a slot and confirm the itinerary."
-              }
-            ]
-          },
-          {
-            "label": "Designs",
-            "title": "A day at a glance",
-            "intro": "The app opens on a greeting and a single prompt, Let’s plan your schedule, with today’s sessions beneath it.",
-            "items": [
-              {
-                "heading": "Interests in, itinerary out",
-                "body": "Delegates pick focus areas such as food systems, AI and technology, finance and markets or climate. The AI-generated itinerary then lists recommended sessions with their time, hall and duration, and adds the walking time between venues, even leaving time for a coffee.",
-                "image": "assets/projects/wef-app/interests-itinerary.jpg",
-                "caption": "Choosing interests and the AI-generated itinerary."
-              },
-              {
-                "heading": "A home screen that stays current",
-                "body": "The home screen shows the afternoon plan, a search for sessions, speakers and venues, and live updates such as a room change or a cancelled roundtable.",
-                "image": "assets/projects/wef-app/home-live-updates.jpg",
-                "caption": "Home with the afternoon plan and live updates."
-              },
-              {
-                "heading": "Planning, conflicts and sign-in",
-                "body": "The sign-in screen invites delegates to navigate the Forum with an AI companion by their side. A slider sets the time available, for example 2h 30m this afternoon from 14:00 to 16:30. If a session overlaps another commitment, the app detects the conflict and offers two options: keep the current plan and skip one session, or let AI suggest a replacement that fits their interests.",
-                "image": "assets/projects/wef-app/screens-overview.jpg",
-                "caption": "Sign-in, home, available time and conflict resolution."
-              }
-            ]
-          }
-        ]
+        "categories": "Print Design, Editorial, Brand"
       }
     },
     {
@@ -689,9 +260,18 @@
           "title": "The Impact",
           "intro": "One consistent brand outside, and a calmer operation inside.",
           "stats": [
-            { "value": "40+", "label": "reusable UI components shipped" },
-            { "value": "16+", "label": "marketing campaigns & social creatives" },
-            { "value": "85%", "label": "faster maintenance fixes" }
+            {
+              "value": "40+",
+              "label": "reusable UI components shipped"
+            },
+            {
+              "value": "16+",
+              "label": "marketing campaigns & social creatives"
+            },
+            {
+              "value": "85%",
+              "label": "faster maintenance fixes"
+            }
           ]
         },
         "sections": [
@@ -802,19 +382,69 @@
         "eyebrow": "ADGPG",
         "headline": "Thoughtful design belongs in public infrastructure too",
         "lead": "People don’t use government platforms because they like the brand. They use them because they have to. For ADGPG, Abu Dhabi’s government procurement platform, I designed core inner-page modules within the TAMM design system, giving them the same care as any consumer product.",
-        "hero_image": "assets/83125.png",
+        "hero_image": "assets/projects/adgpg/homepage.jpg",
+        "live_url": "",
+        "client": "ADGPG (Abu Dhabi Government Procurement Gate)",
         "categories": "UI/UX Design, Government",
         "tldr": {
-          "body": "I designed 54+ modules that feel native to TAMM. Procurement now works less like paperwork and more like a guided process, with clear steps and clear status. The result was 86% faster processing and a 75% improvement in task completion."
+          "title": "Procurement as a guided process, not paperwork",
+          "body": "I designed 54+ modules that feel native to TAMM. Procurement now works less like paperwork and more like a guided process, with clear steps and clear status. The result was 86% faster processing and a 75% improvement in task completion.\n\nThe portal serves two audiences, suppliers and government employees. The homepage welcomes both and routes each to the right content through two clear entry points, followed by cards for government tenders and supplier guidance."
         },
         "impact": {
           "title": "The Impact",
           "stats": [
-            { "value": "86%", "label": "faster processing" },
-            { "value": "75%", "label": "improvement in task completion" },
-            { "value": "54+", "label": "modules designed within TAMM" }
+            {
+              "value": "86%",
+              "label": "faster processing"
+            },
+            {
+              "value": "75%",
+              "label": "improvement in task completion"
+            },
+            {
+              "value": "54+",
+              "label": "modules designed within TAMM"
+            }
           ]
-        }
+        },
+        "sections": [
+          {
+            "label": "Structure",
+            "title": "Mapping how the pages fit together",
+            "intro": "I mapped the platform as a sitemap: a top-level page branching into content areas, listing pages, detail pages and forms, colour-coded by type so the whole structure can be read in one view.",
+            "items": [
+              {
+                "image": "assets/projects/adgpg/sitemap.jpg",
+                "caption": "Sitemap of the platform’s page types and how they connect."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "Clear steps, clear status",
+            "intro": "The modules are built on a shared set of cards, tabs, filters and search so that every part of the portal behaves the same way, and a supplier or government employee always knows where to go next.",
+            "items": [
+              {
+                "heading": "Search that suggests as you type",
+                "body": "The resource library opens with a search bar, popular shortcuts (review contracts, register as a supplier, learn about the new roles) and filters by audience: end user, legal, finance and procurement employee. As the user types, suggestions such as \"Award a contract to entities\" appear. Each card offers a Read Article link and, where there is one, a downloadable resource.",
+                "image": "assets/projects/adgpg/search-resources.jpg",
+                "caption": "Resource library with search suggestions."
+              },
+              {
+                "heading": "Do’s and don’ts and tenders in one place",
+                "body": "Tabs switch between the Do’s & Don’ts for suppliers and tender content, with search, a filter and a card grid below. The highlighted card shows both actions together: Read Article and Downloadable Resource.",
+                "image": "assets/projects/adgpg/tabs-resources.jpg",
+                "caption": "Tabbed guidance with search and filter."
+              },
+              {
+                "heading": "About ADGPG at a glance",
+                "body": "A summary band presents key figures (initiatives launched, entities onboarded, number of tenders and number of suppliers) beside a short introduction to ADGPG. Below it, a News & Announcements carousel keeps updates close.",
+                "image": "assets/projects/adgpg/about-news.jpg",
+                "caption": "About ADGPG with key figures and news."
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -823,7 +453,86 @@
       "category": "Brand",
       "year": "2025-26",
       "card_image": "assets/80cad.png",
-      "card_size": "big"
+      "card_size": "big",
+      "case_study": {
+        "eyebrow": "Go4Trades",
+        "headline": "A brand built around growth and momentum",
+        "lead": "I redesigned the Go4Trades brand and carried it across its website, print, social media and promotions: a new logo, a navy and mint palette and one consistent voice for a proprietary trading firm.",
+        "hero_image": "assets/projects/go4trades/website-hero.jpg",
+        "live_url": "",
+        "client": "Go4Trades",
+        "categories": "Brand Identity, Website, Marketing Design",
+        "tldr": {
+          "title": "One identity, from logo to campaigns",
+          "body": "The identity centres on a new logo that fuses the number 4 with an upward-moving arrow, set in a dark navy and mint palette with soft gradient glows. I applied it to the website, business cards, brochures, merchandise, social posts and promotional campaigns, including Arabic versions.\n\nThe line Where dreams meet reality runs through the brand."
+        },
+        "sections": [
+          {
+            "label": "Logo",
+            "title": "A 4 that points up",
+            "intro": "The previous logo set a red 4 with an arrow beside the name. The new mark is a single mint ribbon that forms both a 4 and an upward-moving arrow, symbolising growth, momentum and success in the financial markets. It represents the journey of traders striving for higher performance, and the brand’s commitment to opportunity, progress and excellence in proprietary trading.",
+            "items": [
+              {
+                "image": "assets/projects/go4trades/logo.jpg",
+                "caption": "Before and after: the Go4Trades logo."
+              }
+            ]
+          },
+          {
+            "label": "Brand",
+            "title": "The mark, applied everywhere",
+            "intro": "The mark and the navy and mint palette carry onto merchandise and stationery: a shirt, cap, tote bag, coffee cup, badges, a billboard and business cards that carry the line Where dreams meet reality.",
+            "items": [
+              {
+                "image": "assets/projects/go4trades/brand-applications.jpg",
+                "caption": "Brand applications: apparel, billboard, cup, cards and badges."
+              },
+              {
+                "heading": "Print and offers",
+                "body": "Printed pieces keep the same look: business cards with a QR code, a $50 voucher with a promo code, and a tri-fold brochure whose cover asks Don’t take the risk! Inside, a Why We’re the Real Deal panel sets out the benefits, and a page introduces the KHDA-certified academy.",
+                "image": "assets/projects/go4trades/print-materials.jpg",
+                "caption": "Business card, voucher and tri-fold brochure."
+              }
+            ]
+          },
+          {
+            "label": "Website",
+            "title": "A dark, glowing interface for traders",
+            "intro": "The website carries the identity into a dark navy interface with glowing gradients and 3D illustrations. The hero asks A Place Where Dreams Meet Reality. Inner pages explain the firm and its scaling plan, and a set of trading calculators lets visitors work through earnings, profit and loss, and risk.",
+            "items": [
+              {
+                "image": "assets/projects/go4trades/website-pages.jpg",
+                "caption": "Trading calculators, About and Scaling Plan pages."
+              }
+            ]
+          },
+          {
+            "label": "Social",
+            "title": "Campaigns for every channel",
+            "intro": "Social and community content reuses the mark and palette, with an astronaut motif for the community campaigns.",
+            "items": [
+              {
+                "heading": "Social posts",
+                "body": "Instagram posts announce the new website, share a message about preparation over emotion in trading, and highlight the TradingView-powered charts.",
+                "image": "assets/projects/go4trades/social-posts.jpg",
+                "caption": "Instagram posts."
+              },
+              {
+                "heading": "Discord community",
+                "body": "A Rise to the Challenge campaign for Discord uses an astronaut character in a dark green scene, with matching avatars, a banner and a $30 giveaway.",
+                "image": "assets/projects/go4trades/discord-campaign.jpg",
+                "caption": "Discord campaign graphics and avatars."
+              },
+              {
+                "heading": "Offers and promotions",
+                "body": "Graphics for challenge discounts and a flash sale come in English and Arabic versions. They share one layout system of mint headlines, a promo code and coin and planet imagery.",
+                "image": "assets/projects/go4trades/promotions.jpg",
+                "caption": "Promotional graphics in English and Arabic."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "WEF - App",
@@ -831,7 +540,61 @@
       "category": "Product",
       "year": "2026-Q1",
       "card_image": "assets/c29c3.png",
-      "card_size": "small"
+      "card_size": "small",
+      "case_study": {
+        "eyebrow": "WEF App",
+        "headline": "An AI companion that plans your day at the Forum",
+        "lead": "I designed a mobile app that helps delegates plan their day at the World Economic Forum. An AI planner builds an itinerary around their interests and available time, accounts for walking between venues, and flags conflicts before they happen.",
+        "hero_image": "assets/projects/wef-app/hero-home.jpg",
+        "live_url": "",
+        "categories": "Product Design, Mobile App, AI",
+        "tldr": {
+          "title": "From an empty schedule to a plan in five steps",
+          "body": "The app turns planning into a short flow: ask the AI planner, declare interests, read the plan, adjust a slot if there is a conflict, and confirm. Live updates for room changes and cancellations keep the plan current.\n\nThe interface stays light and calm, with soft blue gradients, dark session cards for emphasis and a floating tab bar."
+        },
+        "sections": [
+          {
+            "label": "Flow",
+            "title": "Five steps from question to itinerary",
+            "intro": "The core journey has five steps: Ask AI, Declare interests, Read the plan, Adjust slot, and Confirm and go.",
+            "items": [
+              {
+                "image": "assets/projects/wef-app/flow-steps.jpg",
+                "caption": "Steps 1 to 3: ask the AI planner, declare interests and read the plan."
+              },
+              {
+                "image": "assets/projects/wef-app/confirm-steps.jpg",
+                "caption": "Steps 4 and 5: adjust a slot and confirm the itinerary."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "A day at a glance",
+            "intro": "The app opens on a greeting and a single prompt, Let’s plan your schedule, with today’s sessions beneath it.",
+            "items": [
+              {
+                "heading": "Interests in, itinerary out",
+                "body": "Delegates pick focus areas such as food systems, AI and technology, finance and markets or climate. The AI-generated itinerary then lists recommended sessions with their time, hall and duration, and adds the walking time between venues, even leaving time for a coffee.",
+                "image": "assets/projects/wef-app/interests-itinerary.jpg",
+                "caption": "Choosing interests and the AI-generated itinerary."
+              },
+              {
+                "heading": "A home screen that stays current",
+                "body": "The home screen shows the afternoon plan, a search for sessions, speakers and venues, and live updates such as a room change or a cancelled roundtable.",
+                "image": "assets/projects/wef-app/home-live-updates.jpg",
+                "caption": "Home with the afternoon plan and live updates."
+              },
+              {
+                "heading": "Planning, conflicts and sign-in",
+                "body": "The sign-in screen invites delegates to navigate the Forum with an AI companion by their side. A slider sets the time available, for example 2h 30m this afternoon from 14:00 to 16:30. If a session overlaps another commitment, the app detects the conflict and offers two options: keep the current plan and skip one session, or let AI suggest a replacement that fits their interests.",
+                "image": "assets/projects/wef-app/screens-overview.jpg",
+                "caption": "Sign-in, home, available time and conflict resolution."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Buna",
@@ -844,18 +607,69 @@
         "eyebrow": "Buna",
         "headline": "Making trust visible in every pixel",
         "lead": "Buna moves money across borders for banks and financial institutions. Its whole offer depends on trust. I designed the website so that every layout, tone and hierarchy choice signals security and credibility before a visitor reads a word.",
-        "hero_image": "assets/c96d2.png",
+        "hero_image": "assets/projects/buna/homepage.jpg",
+        "live_url": "",
+        "client": "Buna",
         "categories": "UI/UX Design, Cross-Border Payments",
         "tldr": {
-          "body": "Across 24+ pages, I balanced scale and reliability with warmth, and explained cross-border payments in a way anyone could follow. The result was a 72% increase in qualified institutional leads."
+          "body": "Across 24+ pages, I balanced scale and reliability with warmth, and explained cross-border payments in a way anyone could follow. The result was a 72% increase in qualified institutional leads.\n\nThe site covers who Buna is, its capabilities, its network, news and events, resources, a developer portal and careers, all under one green, gold and white identity."
         },
         "impact": {
           "title": "The Impact",
           "stats": [
-            { "value": "72%", "label": "increase in qualified institutional leads" },
-            { "value": "24+", "label": "website pages designed" }
+            {
+              "value": "72%",
+              "label": "increase in qualified institutional leads"
+            },
+            {
+              "value": "24+",
+              "label": "website pages designed"
+            }
           ]
-        }
+        },
+        "sections": [
+          {
+            "label": "Homepage",
+            "title": "A hero that explains Buna in five steps",
+            "intro": "The first screen has to build trust fast. The hero rotates through five messages (Introduction, Cost-Efficient, Secure, Global Standard and Announcement), each with its own illustration and colour, tracked by a numbered progress line along the bottom.",
+            "items": [
+              {
+                "image": "assets/projects/buna/onboarding.jpg",
+                "caption": "Hero slide introducing smooth and efficient onboarding."
+              }
+            ]
+          },
+          {
+            "label": "Pages",
+            "title": "A system for the inner pages",
+            "intro": "Inner pages follow a few repeatable patterns so a large site stays easy to scan: a green gradient header with the main navigation, a breadcrumb, a bold title, short intro text and a supporting visual, followed by full-width bands for the detail.",
+            "items": [
+              {
+                "heading": "Explaining the network at a glance",
+                "body": "The Strategic Objectives & Business Approach page uses a diagram to show Buna at the centre of banks in different countries, so the cross-border idea is clear before the text is read. Compliance Program and a Business Impacts and Tangible Value section with icons follow the same pattern.",
+                "image": "assets/projects/buna/inner-pages.jpg",
+                "caption": "Compliance Program, homepage and Strategic Objectives & Business Approach."
+              },
+              {
+                "heading": "A Careers page for banks",
+                "body": "The Careers section includes a page called How We Hire Banks. Long-form text sits beside a supporting photograph, and a green How We Work band leads into the next section.",
+                "image": "assets/projects/buna/careers.jpg",
+                "caption": "How We Hire Banks, with placeholder text."
+              }
+            ]
+          },
+          {
+            "label": "Brand",
+            "title": "Values in one glance",
+            "intro": "The Our Values section presents Integrity, Reliability, Accountability, Commitment and Excellence on a solid green band, each with a white line icon, a gold title and a one-sentence description.",
+            "items": [
+              {
+                "image": "assets/projects/buna/values.jpg",
+                "caption": "Our Values."
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -864,7 +678,70 @@
       "category": "Product",
       "year": "2023-Q3",
       "card_image": "assets/9ee11.png",
-      "card_size": "small"
+      "card_size": "small",
+      "case_study": {
+        "eyebrow": "Expense App",
+        "headline": "Making expense claims quick to file and easy to track",
+        "lead": "I designed a mobile expense app for Folio3 where employees submit reimbursement requests, scan receipts and follow each claim through to payment, with a separate flow for the finance team that manages the setup.",
+        "hero_image": "assets/projects/expense-app/hero-home.webp",
+        "live_url": "",
+        "client": "Folio3",
+        "categories": "Product Design, Mobile App, Expense Management",
+        "tldr": {
+          "title": "I manage people, not expenses",
+          "body": "The app’s promise is in its sign-in line: I manage people, not expenses. Employees sign in with Google, see what is due on the home screen, file a request in a few steps and track it to payment. Finance admins manage employees, approvers, locations, designations, roles and expense types.\n\nI mapped the flows for both roles and wireframed the employee view, then moved into the final interface."
+        },
+        "sections": [
+          {
+            "label": "Structure",
+            "title": "Two roles, two flows",
+            "intro": "I mapped user flows for the Employee and the Admin (Finance) roles. Both start with a Google sign-in. A new user is sent on to complete a short profile with employee ID, contact, location, designation and bank account number.",
+            "items": [
+              {
+                "image": "assets/projects/expense-app/user-flows.webp",
+                "caption": "User flows for the employee and the finance admin."
+              },
+              {
+                "heading": "Wireframing the employee view",
+                "body": "Low-fidelity wireframes covered the login and dashboard screens, the profile screens and a multi-screen New Request flow, including the calendar and the receipt upload steps.",
+                "image": "assets/projects/expense-app/wireframes.webp",
+                "caption": "Employee view wireframes."
+              }
+            ]
+          },
+          {
+            "label": "Designs",
+            "title": "The deadline, the requests and the next action",
+            "intro": "The home screen leads with a deadline banner (for example, 12 days remaining to submit allowable expenses), followed by the employee’s recent and pending requests. A bottom bar holds Home, a red New Request button and My Profile. The banner comes in blue and red variants.",
+            "items": [
+              {
+                "heading": "One style from sign-in to confirmation",
+                "body": "From the sign-in screen to the \"request submitted\" confirmation, the screens share one blue and white style, with a single red action reserved for starting a new request.",
+                "image": "assets/projects/expense-app/ui-overview.webp",
+                "caption": "Sign-in, home, reimbursement form, filters and confirmation."
+              },
+              {
+                "heading": "Scan receipts, then confirm the details",
+                "body": "Employees photograph receipts, review each scanned item (date incurred and amount in PKR) with an Add more option, then complete a Reimbursement Form with expense type, division and a description before submitting. The form shows the uploaded receipts as thumbnails.",
+                "image": "assets/projects/expense-app/receipt-flow.webp",
+                "caption": "Scanning receipts and completing the reimbursement form."
+              },
+              {
+                "heading": "Tracking and filtering requests",
+                "body": "My Request lists each claim with its amount and a status tag: Pending, Amount Disbursed or Posted to payroll. A filter sheet narrows the list by expense type, status and date, including a custom date range calendar.",
+                "image": "assets/projects/expense-app/requests-filters.webp",
+                "caption": "Request list, custom date range and filters."
+              },
+              {
+                "heading": "Profile and notifications",
+                "body": "Employees can view and edit their profile (employee ID, email, role, bank account, designation, contact and location), and a notifications list reminds them of upcoming deadlines.",
+                "image": "assets/projects/expense-app/profile-notifications.webp",
+                "caption": "Profile, edit profile and notifications."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Capital Health",
