@@ -5,6 +5,8 @@ html{scroll-behavior:auto}
 .cs-wrap{width:min(1020px,calc(100% - 48px));margin:0 auto}
 .cs-loading{text-align:center;padding:200px 0;color:var(--mid)}
 
+.draft-note{position:fixed;top:78px;left:50%;transform:translateX(-50%);z-index:55;background:#2c2c2c;color:#fff;font-size:13px;padding:8px 16px;border-radius:999px;max-width:calc(100% - 24px);text-align:center}
+
 /* hero */
 .cs-hero{padding-top:64px}
 .eyebrow{font-size:14px;text-transform:uppercase;letter-spacing:-.02em;color:var(--mid);margin-bottom:16px}

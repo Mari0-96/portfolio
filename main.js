@@ -4,7 +4,7 @@
 
   /* ---------- build the project grid from content/projects.json (edited via /admin) ---------- */
   try {
-    const projects = await Site.load();
+    const projects = (await Site.load()).filter(p => !p.unlisted); // hidden drafts stay off the homepage
     const grid = $('#grid');
     const cols = [0, 1, 2].map(() => { const c = document.createElement('div'); c.className = 'col'; grid.append(c); return c; });
     projects.forEach((p, i) => {

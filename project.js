@@ -24,6 +24,7 @@
   }
   const c = p.case_study;
   document.title = `${p.title} — Maria`;
+  if (p.unlisted) { const m = document.createElement('meta'); m.name = 'robots'; m.content = 'noindex'; document.head.append(m); }
   const meta = document.querySelector('meta[name="description"]'); if (meta) meta.content = c.lead || '';
 
   /* ---------- build sections ---------- */
@@ -96,7 +97,9 @@
     <p><b>${esc(c.quote.author || '')}</b>${c.quote.role ? `<span>${esc(c.quote.role)}</span>` : ''}</p>
   </section>` : '';
 
-  const idx = withCase.indexOf(p), next = withCase.length > 1 ? withCase[(idx + 1) % withCase.length] : null;
+  const listed = withCase.filter(x => !x.unlisted);
+  const idx = listed.indexOf(p);
+  const next = !listed.length ? null : idx < 0 ? listed[0] : listed.length > 1 ? listed[(idx + 1) % listed.length] : null;
   const cta = `
   <section class="cs-wrap cta reveal">
     <h2>Let’s talk about your project.</h2>
@@ -113,7 +116,8 @@
     ${nav.map(x => `<a href="#${x.id}" data-sec="${x.id}">${esc(x.label)}</a>`).join('')}
   </nav>` : '';
 
-  root.innerHTML = head + metaRow + tldr + impact + sections + q + cta + pill;
+  const draftNote = p.unlisted ? '<div class=\"draft-note\">Draft preview — this page is hidden from the homepage and search engines.</div>' : '';
+  root.innerHTML = draftNote + head + metaRow + tldr + impact + sections + q + cta + pill;
   // low-resolution hero (e.g. a card thumbnail): don't stretch it across the full width
   const heroImg = root.querySelector('.hero-img img');
   if (heroImg) {
