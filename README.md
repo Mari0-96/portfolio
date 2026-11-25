@@ -37,7 +37,7 @@ Or edit `content/projects.json` directly (the GitHub "Validate content" check wi
 
 ## Customise
 
-- Social links: the `.social` links in `index.html` and `project.html` (currently `#`).
+- Social links: the `.social` links in `index.html` and `project.html` (Instagram, Behance, LinkedIn).
 - Colours and spacing: top of `style.css`.
 - Case-study layout: `project.js` (markup) and `project.css` (styles).
 
