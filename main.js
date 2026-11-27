@@ -102,7 +102,7 @@
     };
     img.complete ? measure() : img.addEventListener('load', measure);
   });
-  const navItems = $$('.nav .links a, .nav .clock, .nav .contact small, .nav .contact a');
+  const navItems = $$('.nav .links a, .nav .clock, .nav .contact small, .nav .contact a, .nav .menu-btn');
   const updateNav = () => {
     const rects = [...darkThumbs].map(t => t.getBoundingClientRect()).filter(r => r.bottom > 0 && r.top < 80);
     navItems.forEach(el => {
